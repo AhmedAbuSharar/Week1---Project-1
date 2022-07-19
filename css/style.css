@@ -11,3 +11,62 @@ body {
 .clearfix {
     clear: both;
 }
+
+.img01 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.header_content{
+    /* align-content: center; */
+    align-items: center;
+    display: flex;
+    margin-left: 20rem;
+}
+.headerAbout{
+    width: 40%;
+    position: absolute;
+    /* text-align: center; */
+    margin-left: 22rem;
+}
+.headerAbout h1{
+    font-size: 6rem;
+    
+}
+.headerAbout p{
+    font-size: 2rem;    
+}
+
+button{
+    border-radius: 2rem;
+    border: 1px;
+    border-style: solid;
+    background-color: #fff;
+    /* border-color: darkgrey; */
+    width: 150px;
+    height: 50px;
+}
+main{
+    padding-top: 10rem;
+}
+.top{
+    text-align: center;
+}
+
+div#services-icon {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px auto;
+  }
+i  {
+    border: 2px #565656a6 solid;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 5px 10px;
+  }
